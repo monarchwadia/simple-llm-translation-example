@@ -88,6 +88,7 @@ hello, how are you?
 
 ## ⚠️ Limitations
 
+- **Context length**: We are using `gpt-4o-mini` which has a context window (i.e. input limit) of `128K` tokens and an output limit of `16,384` tokens. This means it can translate texts of approximately `12,000` words.
 - **OpenAI API Key Required**: An active OpenAI API key is necessary, which may involve usage costs.
 - **Internet Connection Needed**: Requires internet access to communicate with the OpenAI API.
 - **Language Support Variance**: While many languages are supported, some may not be fully compatible or may result in less accurate translations.
