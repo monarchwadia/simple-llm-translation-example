@@ -1,4 +1,4 @@
-# Text Translator Automation
+# Bulk translate to english
 
 Translate your text files effortlessly from any language to English using the power of OpenAI's advanced language models. This tool is designed to make translations simple, efficient, and accessible to everyone.
 
