@@ -6,12 +6,12 @@ Translate your text files effortlessly from any language to English using the po
 
 In today's interconnected world, clear communication across different languages is more important than ever. This script is designed to make translating text files into English effortless and efficient. By automating the translation process, it allows individuals and businesses to quickly convert large volumes of text from various languages without the hassle of manual translation. This means you can focus on understanding and utilizing the content rather than getting bogged down in the translation process.
 
-![Benefits of using automated GPT translations in your workflow](feb4a992-0ac4-411b-869b-92da1e10352a-1.png)
+![Benefits of using automated GPT translations in your workflow](./imgs/feb4a992-0ac4-411b-869b-92da1e10352a-1.png)
 > Benefits of using automated GPT translations in your workflow.
 
 For translation companies, this tool offers a significant boost in productivity. By automating the initial translation of documents, it frees up professional translators to concentrate on refining and perfecting translations rather than starting from scratch. This not only speeds up project turnaround times but also reduces costs associated with manual translation efforts. The script ensures consistency and accuracy, providing a reliable first draft that human translators can then polish, ultimately enhancing the quality of service offered to clients.
 
-![Advantages of using LLM-powered automation in your translation process](feb4a992-0ac4-411b-869b-92da1e10352a.png)
+![Advantages of using LLM-powered automation in your translation process](./imgs/feb4a992-0ac4-411b-869b-92da1e10352a.png)
 > Advantages gained by enhancing your translation process with LLM-powered automation.
 
 
