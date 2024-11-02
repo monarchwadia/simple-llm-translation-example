@@ -16,7 +16,15 @@ def read_files():
     files = os.listdir(path)
     print(files)
     for file in files:
+        # skip .keep files
+        if file == '.keep':
+            print('skipping .keep file')
+            continue
+            
+        print(f'Processing file: {file}')
+
         with open(os.path.join(path, file), 'r') as input_file:
+            print(f'Translating file: ./files/{file}')
             chat_completion = client.chat.completions.create(
                 messages=[
                     {
@@ -30,11 +38,15 @@ def read_files():
                 ],
                 model="gpt-4o-mini",
             )
+            print("Translation successful.")
             translation = chat_completion.choices[0].message.content
+
             # write to /translated/*
+            print(f'Writing translation to ./translated/{file}')
             with open(os.path.join(os.path.dirname(__file__), 'translated', file), 'w') as t:
                 t.write(translation)
                 # for line in input:
                 #     t.write(line)
+        print(f'Finished processing file: {file}')
 
 read_files()

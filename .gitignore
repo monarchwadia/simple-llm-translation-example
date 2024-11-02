@@ -1,1 +1,5 @@
 .env
+files/*
+!files/.keep
+translated/*
+!translated/.keep
