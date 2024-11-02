@@ -98,6 +98,7 @@ hello, how are you?
 - **Accurate Translations**: OpenAI's advanced language processing capabilities, while not perfect, are still accurate and take many human nuances into account.
 - **Organized File Management**: Keeps original and translated files neatly separated for clarity.
 - **Scalable**: Suitable for both small projects and large-scale translation needs.
+- **File format support**: Currently supports most types of plaintext file formats. For example `.txt` (Text files), `.md` (Markdown), `.qmd`, `.html` (websites), `.xml`, `.tex` (LaTeX) et cetera.
 
 ## ⚠️ Limitations
 
@@ -105,7 +106,7 @@ hello, how are you?
 - **OpenAI API Key Required**: An active OpenAI API key is necessary, which may involve usage costs.
 - **Internet Connection Needed**: Requires internet access to communicate with the OpenAI API.
 - **Language Support Variance**: While many languages are supported, some may not be fully compatible or may result in less accurate translations.
-- **Plain Text Files Only**: Currently supports only `.txt` files; other formats like PDF or DOCX are not supported without additional customization.
+- **Plain Text Files Only**: Currently supports only plaintext files, for example `.txt` (Text files), `.md` (Markdown), `.qmd`, `.html` (websites), `.xml`, `.tex` (LaTeX) et cetera; other formats like PDF or DOCX are not supported without additional customization.
 - **Machine Translation Nuances**: Automated translations might not capture all cultural nuances or specialized terminology. Manual review is recommended for critical documents.
 - **Serial Processing**: The current script translates in serial instead of in parallel, increasing time to execute.
 
